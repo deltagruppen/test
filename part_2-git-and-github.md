@@ -1,4 +1,4 @@
-# Using Git with Github
+# Part 2 - Git and Github
 So, you've set up your machine, you've read the readme and you're ready to go. Setting up can be complicated and frustrating, so good job getting here! The bad news is that you'll probably find the rest of this tutorial complicated and frustrating, but hey, at least you're used to the feeling now.
 
 ### Basics of Git
