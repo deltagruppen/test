@@ -16,12 +16,18 @@ A _branching model_ is basically a sensible way of structuring branches. For exa
 
 We'll be using a branching model similar to the one described [here](http://nvie.com/posts/a-successful-git-branching-model/). You don't need to understand this in detail, since it won't really affect your day-to-day programming.
 
-### Interlude
-You're basically a Github pro by now. You're fluent in the language of repos, branching models, merges and so on. You know how to set up ssh authentication on your machine, and how to fork an open source project. You're the person people are going to ask when they need help with merge conflicts.
-
-Well done. It's all downhill from here.
-
 ### Collaboration
 If you were the only person working on a project, you'd be good to go now. (Un?)Fortunately you are not. There are nine other people on this project, which means that no matter how fantastic _you_ are at using source control, there's a 900% chance of someone else screwing up. Because that's what people do: Screw things up. Given the chance, _someone_ will merge premature code into the master branch. Or try to roll back a commit you've branched from. Or indent their code with tabs instead of spaces. Hell, they might even straight up nuke the repo by copy-pasting into the terminal from Stack Overflow. 
 
-To stop this from happening we'll be using the fork & pull model of collaboration, explained [here](https://help.github.com/articles/using-pull-requests/#types-of-collaborative-development-models) and [here](http://nathanhoad.net/git-workflow-forks-remotes-and-pull-requests).
+To stop this from happening we'll be using the _fork & pull_ model of collaboration, explained [here](https://help.github.com/articles/using-pull-requests/#types-of-collaborative-development-models) and [here](http://nathanhoad.net/git-workflow-forks-remotes-and-pull-requests).
+
+#### Pull requests
+Pull requests are what drive the collaboration process, and as such are important to understand. Luckily, it's really easy! Once you've pushed your work to your remote fork a nice green button with the text "Compare & pull request" will appear on your project's page. If you're happy with your code, click that button and I (Mac) will be notified that you want to merge code into the project. If your code is up to par (which it is, of course), it will be merged. If not, the team will tell you what you need fix, and you go fix it and repeat the process.
+
+Again, [Github](https://help.github.com/articles/using-pull-requests/) has a really nice tutorial.
+
+### Intermediate pep talk
+You're basically a Github pro by now. You know how to set up ssh authentication on your machine. You're fluent in the language of repos, branches and commits. You know what a branching model is, and you can work with your teammates in a fork/pull fashion.
+
+Well done. It's all downhill from here :)
+
