@@ -4,7 +4,7 @@ So, you've set up your machine, you've read the readme and you're ready to go. S
 ### Basics of Git
 Git has some terminology associated with it that is important to understand. What's nice is that once you understand the terminology, you understand Git (you can tell yourself that at least).
 
-Before moving on you should be understand the following terms: _branch_, _commit_, _commit message_, _merge_, _repo_, _remote_, _clone_, _push_ and _fork_. A good place to start is [here](http://www.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
+Before moving on you should be understand the following terms: _branch_, _commit_, _commit message_, _merge_, _repo_, _remote_, _clone_, _push_ and _fork_. You can read up on the terminology [here](https://help.github.com/articles/github-glossary/). A good place to start learning about branching and merging is [here](http://www.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
 
 ### Basics of Git part 2: The Inquisition
 What do the terms _branch_, _commit_, _commit message_, _merge_, _repo_, _remote_, _clone_, _push_ and _fork_ mean?
