@@ -9,6 +9,7 @@ Time to test your ninja skillz for real. Use the fork & pull model to add your n
  - Veronica
  - Anna-Karin
  - Alfrida
+ - _Your name here_
  - Chaimae
 
 Now, add a file called <_yourname_>.txt to the folder _ourfavouritethings_ with a list of your favorite things.
